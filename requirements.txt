@@ -1,0 +1,5 @@
+rtmapi
+todoist-api-python
+python-dotenv
+httplib2
+recurrent
