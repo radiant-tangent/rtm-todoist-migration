@@ -8,6 +8,7 @@ It is built with the following assumptions:
 - RTM Notes are Todoist Comments
 - A task URL from RTM will be added to the description for a task in Todoist
 - Handles nested subtasks (up to 3 levels)
+- Migrating only active tasks from RTM (not completed or trashed tasks)
 - Migrating to a Todoist with no tasks.  If you already have tasks, you may want to add an extra tag so that you can tell the old from the imported tasks.
 - Priorities are the following:
   - RTM No Priority = Todoist normal priority (API=1; UI=4)
