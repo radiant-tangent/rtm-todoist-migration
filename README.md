@@ -50,7 +50,7 @@ Note: Subtasks will not be returned with this filter unless they themselves also
 
 ## Doing the full migration
 
-To get tasks from an RTM Json export: `tasks = RTM().get_tasks_from_export("/path/to/export.json")`
+To get tasks from an RTM Json export: `tasks = get_tasks_from_export("/path/to/export.json")`
 
 To get tasks from the RTM API: `tasks = RTM().get_tasks(filter="status:incomplete")`
 
